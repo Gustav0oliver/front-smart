@@ -3,7 +3,7 @@ import React from 'react';
 import { Mail, Lock, User, Home, Building, Check, Search, ShoppingCart, Menu, X, ArrowLeft, ArrowRight, Trash2, Plus, Minus, BarChart, Users as UsersIcon, Package, LogOut, CreditCard, QrCode, Shield, Loader2, Edit, PlusCircle, Building2, Copy, ChevronDown, ChevronUp, DollarSign, KeyRound, Calendar, Wallet, Flame, AlertTriangle, Save, Filter, ArrowDownToLine, ArrowRightLeft, Ticket, Bell, PiggyBank, History, Phone, Refrigerator, CheckCircle2, Info, Ban, FileText } from 'lucide-react';
 
 // --- CONFIGURAÇÃO DA API ---
-const API_URL = 'https://smartfridge-backend-kmpr.onrender.com';
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000'; 
 const MERCADOPAGO_PUBLIC_KEY = 'APP_USR-091cb324-37d0-42bd-a985-b2a8a77a10de';
 
 
